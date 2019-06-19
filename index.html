@@ -9,14 +9,20 @@
     <title>Pig Dice</title>
   </head>
   <body>
+    <img src="img/warthog.png" id="pigPic">
     <h2>Pig Dice</h2>
     <button type="button" name="button" id="player1Roll" >Roll Die</button>
     <div class="rollResult">
     <p>Dice Roll:<span id="diceRoll1"></span></p>
     <p>Round Total:<span id="roundTotal1"></span></p>
     <button type="button" name="button" id="hold">HOLD</button>
-    <p>Player1 Total Score:<span id="totalScore1"></span></p>
-    <p>Player2 Total Score:<span id="totalScore2"></span></p>
+    <div class="container" id="p1scoreStyles">
+    <p>Player1 Total Score:<span id="totalScore2"></span>
+  </div>
+  <div class="container" id="p2scoreStyles">
+    Player2 Total Score:<span id="totalScore1"></span></p>
+  </div>
+    <!-- fake player names switched to make it look like player one goes first -->
   </div>
   </body>
 </html>
