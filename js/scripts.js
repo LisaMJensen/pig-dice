@@ -86,7 +86,7 @@ if (player1.activePlayer === true) {
     player2.diceRoll = rollDice();
     // player2.roundScore = addRoll();
     $("span#diceRoll1").text(player2.diceRoll);
-    alert(player2.diceRoll);
+    
     player2.addRoll();
     $('#roundTotal1').text(player2.roundScore);
   }
